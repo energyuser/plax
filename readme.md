@@ -19,7 +19,7 @@ In the &lt;head&gt; of your document, link both jQuery and plax.
 
 ```html
 <script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/plax.js"></script>
+<script type="text/javascript" src="/js/plax.js" defer="defer"></script>
 ```
 
 Then in your javascript, add each "layer" to the list of layers to be parallaxed. Once that's done, enable Plax and you're good to go.
